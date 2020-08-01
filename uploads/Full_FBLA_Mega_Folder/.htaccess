@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Required"
+Require valid-user
+AuthUserFile /etc/apache2/.htpasswd
