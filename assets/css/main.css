@@ -130,13 +130,13 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #f56a6a;
+  color: #fc3636;
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom-color: #f56a6a;
-  color: #f56a6a !important;
+  border-bottom-color: #fc3636;
+  color: #fc3636 !important;
 }
 
 a:hover strong {
@@ -1472,7 +1472,7 @@ header p {
 }
 
 header.major> :last-child {
-  border-bottom: solid 3px #f56a6a;
+  border-bottom: solid 3px #fc3636;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0;
@@ -1518,8 +1518,8 @@ input[type="text"]:invalid, input[type="password"]:invalid, input[type="email"]:
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="search"]:focus, input[type="url"]:focus, select:focus, textarea:focus {
-  border-color: #f56a6a;
-  box-shadow: 0 0 0 1px #f56a6a;
+  border-color: #fc3636;
+  box-shadow: 0 0 0 1px #fc3636;
 }
 
 select {
@@ -1615,8 +1615,8 @@ input[type="checkbox"]:checked+label:before, input[type="radio"]:checked+label:b
 }
 
 input[type="checkbox"]:focus+label:before, input[type="radio"]:focus+label:before {
-  border-color: #f56a6a;
-  box-shadow: 0 0 0 1px #f56a6a;
+  border-color: #fc3636;
+  box-shadow: 0 0 0 1px #fc3636;
 }
 
 input[type="checkbox"]+label:before {
@@ -1951,7 +1951,7 @@ ul.contact li:before {
 }
 
 ul.contact li:before {
-  color: #f56a6a;
+  color: #fc3636;
   display: inline-block;
   font-size: 1.5em;
   height: 1.125em;
@@ -2010,7 +2010,7 @@ ul.pagination li>.page {
 }
 
 ul.pagination li>.page.active {
-  background-color: #f56a6a;
+  background-color: #fc3636;
   color: #ffffff !important;
 }
 
@@ -2119,10 +2119,11 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   background-color: transparent;
-  border-radius: 0.375em;
-  border: 0;
-  box-shadow: inset 0 0 0 2px #f56a6a;
-  color: #f56a6a !important;
+  border-radius: 2em;
+  /* border: 0; */
+  border: solid #fc3636 2px;
+  /* box-shadow: inset 0 0 0 2px #fc3636; */
+  color: #fc3636 !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -2139,12 +2140,17 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
-  background-color: rgba(245, 106, 106, 0.05);
+  background-color: #fc3636;
+  border: solid #ffffff 2px;
+  /* box-shadow: inset 0 0 0 2px #ffffff; */
+  color: #ffffff !important;
 }
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active, .button:active {
-  background-color: rgba(245, 106, 106, 0.15);
-}
+  background-color: #fc3636;
+  border: solid #ffffff 2px;
+  /* box-shadow: inset 0 0 0 2px #ffffff; */
+  color: #ffffff !important;}
 
 input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="button"].icon:before, button.icon:before, .button.icon:before {
   margin-right: 0.5em;
@@ -2170,17 +2176,17 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 }
 
 input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary {
-  background-color: #f56a6a;
+  background-color: #fc3636;
   box-shadow: none;
   color: #ffffff !important;
 }
 
 input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, button.primary:hover, .button.primary:hover {
-  background-color: #f67878;
+  background-color: #fc3636;
 }
 
 input[type="submit"].primary:active, input[type="reset"].primary:active, input[type="button"].primary:active, button.primary:active, .button.primary:active {
-  background-color: #f45c5c;
+  background-color: #fc3636;
 }
 
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {
@@ -2271,7 +2277,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 .features article .icon:before {
-  color: #f56a6a;
+  color: #fc3636;
   font-size: 2.75rem;
   position: relative;
   top: 0.05em;
@@ -2852,7 +2858,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #f56a6a;
+  border-bottom: solid 5px #fc3636;
   padding: 6em 0 1em 0;
   position: relative;
 }
@@ -3034,7 +3040,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 #menu ul a:hover, #menu ul span:hover {
-  color: #f56a6a;
+  color: #fc3636;
 }
 
 #menu ul a.opener, #menu ul span.opener {
@@ -3072,7 +3078,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-  color: #f56a6a;
+  color: #fc3636;
 }
 
 #menu ul a.opener.active+ul, #menu ul span.opener.active+ul {
