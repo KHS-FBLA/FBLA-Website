@@ -2146,14 +2146,12 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
   background-color: #fc3636;
-  border: solid #ffffff 2px;
   /* box-shadow: inset 0 0 0 2px #ffffff; */
   color: #ffffff !important;
 }
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active, .button:active {
   background-color: #fc3636;
-  border: solid #ffffff 2px;
   /* box-shadow: inset 0 0 0 2px #ffffff; */
   color: #ffffff !important;}
 

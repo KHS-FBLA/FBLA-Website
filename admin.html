@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-Copyright KHS FBLA
+KHS FBLA
 Made by The Webmasters of 2020
 -->
 <html id="top">
@@ -9,7 +9,7 @@ Made by The Webmasters of 2020
 	<title>KHS FBLA</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/stylesheet.css" />
 	<link rel="stylesheet"
 		href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
 	<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon.png">
@@ -31,7 +31,6 @@ Made by The Webmasters of 2020
 
 		gtag('config', 'UA-174504940-1');
 	</script>
-
 </head>
 
 <body class="is-preload">
@@ -47,6 +46,8 @@ Made by The Webmasters of 2020
 				<iframe src="header.html"
 					onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
+				<!-- Changing code above this point might break page functionality. -->
+
 				<!-- Content -->
 				<section>
 					<header class="main">
@@ -55,9 +56,9 @@ Made by The Webmasters of 2020
 
 					<p>Please return home.</p>
 
-					<ul class="actions">
-						<li><a href="index.html" class="button">Return Home</a></li>
-					</ul>
+					<a href="javascript:history.back()" class="button"><i class="icon solid fa-angle-double-left"></i> Back to previous page</a>
+
+					<a href="index.html" class="button">Return Home</a><br><br>
 
 					<p class="ms-Icon ms-Icon--WordDocument"></p><a
 						href="/uploads/Full_FBLA_Mega_Folder/Network_Design/2016_FBLA_Network_Design_Case.docx"
@@ -69,8 +70,65 @@ Made by The Webmasters of 2020
 
 				</section>
 
+				<!-- Changing code below this point might break page functionality. -->
+
 			</div>
 		</div>
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a class="icon solid fa-home" href="https://www.khsfbla.org/"> Home</a></li>
+						<li><a class="icon solid fa-calendar-alt" href="calendar.html"> Calendar</a></li>
+						<li>
+							<span class="opener"><i class="icon solid fa-users"></i> Members</span>
+							<ul>
+								<li><a href="members-membership.html">Membership & Registration</a></li>
+								<li><a href="competition-resources.html">Competition Resources</a></li>
+								<li><a href="members-competitions-leadership.html">Leadership</a></li>
+							</ul>
+						</li>
+						<li class="submenu">
+							<span class="opener"><i class="icon solid fa-bullseye"></i> Competitions</span>
+							<ul>
+								<li><a href="competitions-nationals.html">Nationals</a></li>
+								<li><a href="competitions-states.html">States</a></li>
+								<li><a href="competitions-states.html">Districts</a></li>
+							</ul>
+						</li>
+						<li>
+							<span class="opener"><i class="icon solid fa-images"></i> Gallery</span>
+							<ul>
+								<li><a href="gallery-nationals.html">Nationals</a></li>
+								<li><a href="gallery-states.html">States</a></li>
+								<li><a href="gallery-districts.html">Districts</a></li>
+								<li><a href="gallery-service.html">Service</a></li>
+							</ul>
+						</li>
+						<li><a class="icon solid fa-coins" href="sponsorship.html"> Sponsorship</a></li>
+						<li><a class="icon solid fa-handshake" href="community_service.html"> Community Service</a></li>
+						<li><a class="icon solid fa-info-circle" href="about_us.html"> About Us</a></li>
+					</ul>
+				</nav>
+
+				<!-- Global parts of nav bar -->
+				<iframe src="embed-latest-posts.html"
+					onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+				<iframe src="embed-contact.html"
+					onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+				<iframe src="embed-footer.html"
+					onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+			</div>
+		</div>
+
 	</div>
 
 	<!-- Scripts -->

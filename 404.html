@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-Copyright KHS FBLA
+KHS FBLA
 Made by The Webmasters of 2020
 -->
 <html id="top">
@@ -9,7 +9,9 @@ Made by The Webmasters of 2020
 	<title>KHS FBLA</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/stylesheet.css" />
+	<link rel="stylesheet"
+		href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
 	<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
@@ -29,7 +31,6 @@ Made by The Webmasters of 2020
 
 		gtag('config', 'UA-174504940-1');
 	</script>
-
 </head>
 
 <body class="is-preload">
@@ -45,15 +46,18 @@ Made by The Webmasters of 2020
 				<iframe src="header.html"
 					onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
+				<!-- Changing code above this point might break page functionality. -->
+
 				<!-- Content -->
 				<section>
 					<header class="main">
 						<h1>404. That's an error.</h1>
 					</header>
 					<p>The requested url was not found on this server.</p>
-					<ul class="actions">
-						<li><a href="index.html" class="button">Return Home</a></li>
-					</ul>
+					
+					<a href="javascript:history.back()" class="button"><i class="icon solid fa-angle-double-left"></i> Back to previous page</a>
+
+					<a href="index.html" class="button">Return Home</a><br><br>
 
 				</section>
 
