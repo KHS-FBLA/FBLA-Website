@@ -2119,7 +2119,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   background-color: transparent;
-  border-radius: 2em;
+  border-radius: .5em;
   /* border: 0; */
   border: solid #fc3636 2px;
   /* box-shadow: inset 0 0 0 2px #fc3636; */
@@ -3142,8 +3142,6 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 .curved {
   border-radius: .5em;
-  border: 1;
-  border-color: rgb(75, 194, 194)
 }
 
 
