@@ -3119,7 +3119,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/
-
+/* This is for the main page slideshow */
 * {
   box-sizing: border-box
 }
@@ -3137,6 +3137,15 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 .mySlides {
   display: none;
 }
+
+/* Curve the box borders */
+
+.curved {
+  border-radius: .5em;
+  border: 1;
+  border-color: rgb(75, 194, 194)
+}
+
 
 /* Fading animation */
 
