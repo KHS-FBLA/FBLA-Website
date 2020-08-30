@@ -1,7 +1,0 @@
-membership.html - Feels incomplete
-competition-resources.html - Dropdown menus for different events
-leadership.html - Needs officer photos
-competitions-districts.html - Needs link to tushar's resources
-competitions-states.html - Needs link to tushar's resources
-competitions-nationals.html - Needs link to tushar's resources
-about-us.html - Needs content
